@@ -9,7 +9,7 @@ class MainViewModel(): ViewModel() {
 
     fun test() {
         viewModelScope.launch {
-
+    
         }
     }
 }
