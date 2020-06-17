@@ -2,7 +2,7 @@ package com.hurist.wanandroid.data.responseData
 
 data class ArticleList(
     val curPage: Int,
-    val datas: List<Article>,
+    val datas: ArrayList<Article>,
     val offset: Int,
     val over: Boolean,
     val pageCount: Int,
@@ -48,3 +48,7 @@ data class Tag(
     val name: String,
     val url: String
 )
+
+fun main(args: Array<String>) {
+    Tag("", "").component1()
+}
