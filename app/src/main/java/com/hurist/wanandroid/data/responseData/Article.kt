@@ -48,7 +48,3 @@ data class Tag(
     val name: String,
     val url: String
 )
-
-fun main(args: Array<String>) {
-    Tag("", "").component1()
-}
